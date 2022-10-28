@@ -43,6 +43,10 @@ body {
   background: var(--bg);
 }
 
+section {
+  padding: 2rem 7%;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -196,6 +200,39 @@ body {
   text-align: center;
 }
 
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../images/home-img.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.home .content {
+  max-width: 60rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.home .content p {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  color: #eee;
+}
+
+
+
+
+
+
+
+
+
 /* media queries */
 
 @media (max-width: 991px) {
@@ -205,6 +242,10 @@ body {
 
   .header {
     padding: 1.5rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
   }
 }
 
@@ -238,6 +279,21 @@ body {
     width: 90%;
     right: 2rem;
   }
+
+  .home {
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media (max-width: 450px) {
