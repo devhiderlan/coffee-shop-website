@@ -2,19 +2,20 @@
 
 ## Visão Geral
 
-### Projeto de um componente interativo para avaliação de qualidade de serviço/atendimento prestado.
+### Projeto de uma cafeteria online com design moderno e responsivo a todos os tipos de tela.
 #
 
-![](./Assets/design/desktop-preview.jpg)
+![](./Assets/images/coffee-shop-website.png)
 
 #
 ## Construido com:
-- HTML
+- HTML Semântico
 - CSS
+  - Design Responsivo
 - JavaScript
 
 ## Funcionalidades
-- Card interativo para avaliação de qualidade de serviços/atendimento prestados
+- Cafeteria online com design moderno e responsivo a todos os tipos de tela.
 
 ## O que eu aprendi:
 - Manipulação do DOM com:
@@ -29,13 +30,18 @@
 ```
 - Eventos
 ```js
-  submitButton.addEventListener('click', () => {})
+  document.querySelector('#menu-btn').onclick = () => {
+  navbar.classList.toggle('active')
+  searchForm.classList.remove('active')
+  cartItem.classList.remove('active')
+}
 ```
 - Boas práticas com JavaScript
+#
 
 ## Link
 
-Veja o projeto aqui: 
+Veja o deploy do projeto aqui: [Acessar 🌍](https://devhiderlan.github.io/coffee-shop-website/) 
 
 ## Autor
 
